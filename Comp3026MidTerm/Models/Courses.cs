@@ -18,6 +18,6 @@ namespace Comp3026MidTerm.Models
         public string CourseCode { get; set; }
         public string CourseName { get; set; }
         public string CourseDescription { get; set; }
-        public Nullable<decimal> CourseCost { get; set; }
+        public decimal CourseCost { get; set; }
     }
 }
